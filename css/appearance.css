@@ -1,0 +1,58 @@
+      html,body{height:100%;width:100%;margin:0;overflow:hidden;}
+      #map{
+        padding:0;
+      }
+      #header{
+        position: fixed;
+        top: 0px;
+        z-index: 100;
+        width: 100%;
+        font-size: 10.9: Verdana;
+        line-height:0.5em; /* междустрочный интервал */
+        padding-left: 1em;
+        padding-top:3px;
+        padding-bottom:3px;
+        color:#202020;
+        background-color:#fff; */
+      }
+/*      #header div {
+        display:inline-block; 
+      }  */
+      #header h1 {
+        font-size: 1em;
+        font-family: Verdana;
+      }
+      #search {
+    /*     display: block;  */
+         position: inherit;
+    /*     z-index: 2;  */
+         top: 1em;
+         right: 50px;
+      }
+      #map {
+        height:100%;
+        width:100%
+      }
+      #editorPanelDiv {
+        position: absolute;
+        z-index: 90;
+        left:1em;
+        top: 4em;
+        border-radius: 6px;
+        box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        overflow:auto;
+      }
+      #BaseMapGallerySwitch {
+        position:absolute; 
+        right:20px;
+        top:4em;
+        z-index:100;
+        border-radius: 6px;
+        box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+      }
+      .templatePicker {
+        border: none;
+      }
+
+      .dj_ie .infowindow .window .top .right .user .content { position: relative; }
+      .dj_ie .simpleInfoWindow .content { position: relative; }

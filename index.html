@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>Ciconia ciconia Громадський моніторинг гнізд білого лелеки</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/3.21/dijit/themes/claro/claro.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/3.21/esri/css/esri.css">
+    <link rel="stylesheet" type="text/css" href="css/appearance.css" />
+    <script src="https://js.arcgis.com/3.21/"></script>
+    <script src="assets/app.js"></script>
+  </head>
+  <body class="claro">
+    <div id="main" data-dojo-type="dijit/layout/BorderContainer"  style="height:width:100%;height:100%;"> <!-- присутствовал параметр data-dojo-props="design:'headline'" -->
+      <div data-dojo-type="dijit/layout/ContentPane" id="header" > <!-- шапка -->
+        <div>
+        <img src="assets/images/sork_heder_logo.png" align="left" hspace="1em" alt="Stork logo">  <h1>Ciconia ciconia</h1>
+          Громадський моніторинг гнізд білого лелеки
+        </div>
+        <div id="search"></div>
+      </div>
+      <div data-dojo-type="dijit/layout/ContentPane" id="map" ></div> <!-- Карта -->
+      <div id="editorPanelDiv" data-dojo-type="dijit/layout/ContentPane" > <!-- Панель редактирования -->
+        <div id="templateDiv"></div>
+ <!--       <div id="editorDiv"></div>   убрал панельку с кнопками различными кнопкамми редактирования --> 
+      </div>
+<!--       Добавил переключатель базовых карт --> 
+      <div id="BaseMapGallerySwitch" > 
+        <div data-dojo-type="dijit/TitlePane" 
+              data-dojo-props="title:'Базові мапи', closable:false, open:false"> 
+          <!--   data-dojo-props="title:'Базові мапи', closable:false, open:false">  <img src="assets/images/i_basemap.png" -->  
+          <div data-dojo-type="dijit/layout/ContentPane" style="width:380px; height:280px; overflow:auto;">
+            <div id="basemapGallery"></div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </body>
+</html>
